@@ -115,3 +115,51 @@ a:hover{
     margin-top:10px;
     font-size:14px;
 }
+
+.navbar{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 40px;
+
+    background:#2563eb;
+    color:white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.navbar h2{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.navbar h2:hover{
+    color:#dbeafe;
+}
+
+.navbar button{
+    width:120px;
+}
+
+.home-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.home-container .card{
+    text-align:center;
+}
+
+#userEmail{
+    margin-top:20px;
+    color:#2563eb;
+}
