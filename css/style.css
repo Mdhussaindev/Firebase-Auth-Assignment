@@ -169,3 +169,67 @@ a:hover{
     margin-top:20px;
     color:#2563eb;
 }
+
+
+@media screen and (max-width: 768px){
+
+    .card{
+        width:90%;
+        padding:25px;
+    }
+
+    .navbar{
+        padding:15px 20px;
+    }
+
+    .navbar h2{
+        font-size:18px;
+    }
+
+    .navbar button{
+        width:100px;
+        padding:10px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .card{
+        width:95%;
+        padding:20px;
+    }
+
+    .card h1{
+        font-size:24px;
+    }
+
+    .card p{
+        font-size:14px;
+    }
+
+    input{
+        padding:12px;
+        font-size:14px;
+    }
+
+    button{
+        padding:12px;
+        font-size:14px;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
+    }
+
+    .navbar h2{
+        font-size:16px;
+    }
+
+    .home-container{
+        padding:20px;
+    }
+
+}
