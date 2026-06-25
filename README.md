@@ -1,5 +1,3 @@
-# Firebase-Auth-Assignment
-
 # Firebase Authentication Assignment
 
 ## 📌 Project Overview
