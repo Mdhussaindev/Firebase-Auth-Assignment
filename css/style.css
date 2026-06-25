@@ -10,7 +10,11 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#dbeafe,#f8fafc);
+    /* background:linear-gradient(135deg,#dbeafe,#f8fafc); */
+    background:linear-gradient( 135deg,
+        #0f172a,
+        #1e293b,
+        #334155);
 }
 
 .auth-container{
@@ -22,7 +26,9 @@ body{
 }
 
 .card{
-    width:420px;
+
+    width:100%;
+    max-width:420px;
     background:#ffffff;
     padding:35px;
     border-radius:16px;
